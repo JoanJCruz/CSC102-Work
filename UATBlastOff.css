@@ -1,0 +1,27 @@
+/*Joan J. Cruz*/
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+
+h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+}
+p
+{
+    font-family: 'Courier New', Courier, monospace;
+    color:white
+}
+button
+{
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    background-color: red;
+}
