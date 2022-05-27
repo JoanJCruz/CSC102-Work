@@ -1,7 +1,7 @@
 /*Joan J. Cruz*/
 body
 {
-    background-color: black;
+    background-image: linear-gradient(to right, black, white);
 }
 
 h1
@@ -15,13 +15,29 @@ h2
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:red;
 }
+
 p
 {
     font-family: 'Courier New', Courier, monospace;
     color:white
 }
+
 button
 {
     font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    border-radius: 8px;
+    border: 2px solid black ;
+    transition-duration: 0.4s;
+}
+button:hover
+{
+    color: black;
     background-color: red;
+}
+button:active
+{
+    background-color:darkred;
+    box-shadow: 0 5px;
+    transform: translateY(4px);
 }
