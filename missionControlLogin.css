@@ -1,0 +1,20 @@
+/*Joan J. Cruz*/
+body
+{
+    background-image: linear-gradient(to right, black, white);
+}
+h1
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+p
+{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+form
+{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

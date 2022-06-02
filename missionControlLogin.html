@@ -1,0 +1,35 @@
+<!--Joan J. Cruz-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Control Login</title>
+    <script src = "missionControlLogin.js"></script>
+    <link rel = "stylesheet" href = "missionControlLogin.css">
+</head>
+<body>
+    <img src="UATspaceLogo-2.jpg" alt="UAT Space Program Logo"> 
+    <!--Displays UAT Space Program's Logo-->
+    <h1>Welcome to the UAT Space Program Mission Control Operator</h1>
+    <!--Header-->
+    <p>Please log in to proceed</p>
+    <form name="operatorLogin" action="missionControlLogin.js" onsubmit="return validateLogin()">
+        <!--Once the form is submitted, missionControlLogin.js will process it-->
+
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br>
+        <!--Creates an input entry for the user's first name-->
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        <!--Creates an input entry for the user's last name-->
+        <label for="badgeNumber">Badge # (3 Digits):</label><br>
+        <input type="text" id="badgeNumber" name="badgeNumber"><br>
+        <!--Creates an input entry for the user's badge number-->
+        <br>
+        <input type="submit" value="Submit">
+        <!--Creates a button to submit the whole form at once-->
+    </form> 
+</body>
+</html>
